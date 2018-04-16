@@ -1,0 +1,33 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 300px 300px;
+
+
+}
+
+.gallery_icon {
+
+    padding: 20px;
+    font-size: 150%;
+}
+
+.A{
+     background-color: #444;
+ }
+
+.B{
+    background-color: white;
+}
+
+.gallery_button{
+    clear: both;
+    height: 40px;
+    text-align: center;
+    background: gainsboro;
+}
+
+.gallery_button_text{
+    margin: 0;
+    padding: 0;
+}
