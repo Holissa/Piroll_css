@@ -1,0 +1,39 @@
+.work_process {
+    height: 932px;
+    text-align: center;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.work_process_text_block {
+    width: 550px;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.work_process_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.work_process_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #787878;
+}
+
+.work_process_video {
+    width: 1170px;
+    height: 573px;
+    background: #e9e9e9;
+}
+
+.work_process_video_icon {
+    padding-top: 20%;
+}
+
+.work_process_video, .work_process_video_icon, .logo {
+    margin: auto;
+}

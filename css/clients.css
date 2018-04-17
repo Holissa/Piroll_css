@@ -1,0 +1,15 @@
+.clients{
+    display: flex;
+    height: 200px;
+    margin: auto;
+    justify-content: center;
+    width: 1168px;
+    text-align: center;
+    padding-top: 55px;
+    box-sizing: border-box;
+}
+
+.clients_cell{
+    width: 20%;
+    opacity: 0.5;
+}

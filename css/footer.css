@@ -1,0 +1,49 @@
+.footer {
+    height: 285px;
+    background: black;
+    margin-bottom: 0;
+
+}
+
+.footer_box {
+    display: grid;
+    grid-template-columns: 230px 545px 108px 190px 100px;
+    /*grid-template-rows: 285px;*/
+    color: white;
+    margin: auto;
+    width: 1168px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.footer_cell1_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer_cell1_author {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_cell2{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #bcbcbc;
+    line-height: 1;
+}
+
+.footer_cell2_mail{
+
+
+}
+
+.footer_cell3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #bcbcbc;
+    line-height: 0.5;
+}
