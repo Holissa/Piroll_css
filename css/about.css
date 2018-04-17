@@ -1,0 +1,19 @@
+.about{
+    text-align: center;
+    margin: auto;
+    width: 550px;
+    height: 419px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.about_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.about_text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #787878;
+}

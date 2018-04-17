@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="resources/Icon-font-7-stroke-PIXEDEN-v-1.2.0/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="resources/Icon-font-7-stroke-PIXEDEN-v-1.2.0/pe-icon-7-stroke/css/helper.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/description.css">
-    <link rel="stylesheet" href="css/statistics.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/numbers.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/categories.css">
@@ -13,13 +18,12 @@
 </head>
 <body class="page">
 
-
 <!------------------------------------------------------------------------------------ START HEADER BLOCK ------------------------------------------------------------------------------------>
 <header class="header">
     <div class="menu">
-        <img class="logo" src="images/logo.png">
+        <img class="menu_logo" src="resources/images/header_logo.png">
         <nav class="menu_item">
-            <a class="menu_link" href="">home</a>
+            <a class="menu_link menu_link_active" href="">home</a>
             <a class="menu_link" href="">about</a>
             <a class="menu_link" href="">work</a>
             <a class="menu_link" href="">process</a>
@@ -28,12 +32,12 @@
             <a class="menu_link" href="">contact</a>
         </nav>
     </div>
-    <div class="header_text">
-        <h1 class="header_text_tittle">We Design and Develop</h1>
-        <p class="header_text_words">
+    <div class="banner">
+        <h1 class="banner_tittle">We Design and Develop</h1>
+        <p class="banner_text">
             We are a new design stusio based in USA. We have over 20 years of combined experience, and know a thing of
             two about designing websites and mobile apps.</p>
-        <div class="header_text_button">
+        <div class="banner_button">
             <p>contact us</p>
         </div>
     </div>
@@ -42,31 +46,34 @@
 
 
 
-<!------------------------------------------------------------------------------------ START DESCRIPTION BLOCK ------------------------------------------------------------------------------------>
-<div class="description">
-    <h2 class="description_title">About Us</h2>
-    <p class="description_text">Divide have don't man wherein air fourth. Own itself make have night wont's make. A you
+<!------------------------------------------------------------------------------------ START ABOUT BLOCK ------------------------------------------------------------------------------------>
+<div class="about">
+    <h2 class="about_title">About Us</h2>
+    <p class="about_text">Divide have don't man wherein air fourth. Own itself make have night wont's make. A you
         under Seed appear which good give. Own give air without
         fowl moveth dry first heaven fruit, dominion she'd won't very all.</p>
-    <img class="logo" src="images/logo.png">
+    <img class="about_signature" src="resources/images/about_signature.png">
 </div>
 
-<!------------------------------------------------------------------------------------ END DESCRIPTION BLOCK ------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------ END ABOUT BLOCK ------------------------------------------------------------------------------------>
 
 <!------------------------------------------------------------------------------------ START SKILLS BLOCK ------------------------------------------------------------------------------------>
-<div style="display: flex; flex-direction: column; background: gainsboro; padding-left: 150px">
-    <h2>Professional Skills</h2>
-    <p>ui/ux design 75%</p>
-    <div>
-        <progress value="10" max="100"></progress>
+<div class="skills">
+    <h2 class="skills_title">Professional Skills</h2>
+    <p class="skills_text">ui/ux design <span class="skills_number">75%</span></p>
+    <div class="skills_progress">
+        <progress max="100" value="0"></progress>
+        <div class="skills_progress-bg"><div class="skills_progress-bar skills_progress-bar-1"></div></div>
     </div>
-    <p>web development 90%</p>
-    <div>
-        <progress value="10" max="100"></progress>
+    <p class="skills_text">web development <span class="skills_number">90%</span></p>
+    <div class="skills_progress">
+        <progress max="100" value="0"></progress>
+        <div class="skills_progress-bg"><div class="skills_progress-bar skills_progress-bar-2"></div></div>
     </div>
-    <p>marceting 65%</p>
-    <div>
-        <progress value="10" max="100"></progress>
+    <p class="skills_text">marketing <span class="skills_number">65%</span></p>
+    <div class="skills_progress">
+        <progress max="100" value="0"></progress>
+        <div class="skills_progress-bg"><div class="skills_progress-bar skills_progress-bar-3"></div></div>
     </div>
 
 </div>
@@ -74,55 +81,59 @@
 <!------------------------------------------------------------------------------------ END SKILLS BLOCK ------------------------------------------------------------------------------------>
 
 
-<!------------------------------------------------------------------------------------ START STATISTICS BLOCK ------------------------------------------------------------------------------------>
-<div class="statistics">
-    <div class="grid">
-        <div class="box box1">
+<!------------------------------------------------------------------------------------ START NUMBERS BLOCK ------------------------------------------------------------------------------------>
+<div class="numbers">
+    <div class="numbers_grid">
+        <div class="numbers_box box1">
+         <i class="pe-7s-portfolio pe-3x pe-va"></i>
         </div>
-        <div class="box box2">
+        <div class="numbers_box box2">
             <p>548</p>
         </div>
-        <div class="box box3">
-            <p>projects comoleted</p>
+        <div class="numbers_box box3">
+            <p>projects completed</p>
         </div>
     </div>
 
-    <div class="grid">
-        <div class="box box1">
+    <div class="numbers_grid">
+        <div class="numbers_box box1">
+            <i class="pe-7s-clock pe-3x pe-va"></i>
         </div>
-        <div class="box box2">
+        <div class="numbers_box box2">
             <p>1465</p>
         </div>
-        <div class="box box3">
+        <div class="numbers_box box3">
             <p>working hours</p>
         </div>
     </div>
 
 
-    <div class="grid">
-        <div class="box box1">
+    <div class="numbers_grid">
+        <div class="numbers_box box1">
+            <i class="pe-7s-star pe-3x pe-va"></i>
         </div>
-        <div class="box box2">
+        <div class="numbers_box box2">
             <p>612</p>
         </div>
-        <div class="box box3">
+        <div class="numbers_box box3">
             <p>positive feedbacks</p>
         </div>
     </div>
 
-    <div class="grid">
-        <div class="box box1">
+    <div class="numbers_grid">
+        <div class="numbers_box box1">
+            <i class="pe-7s-like pe-3x pe-va"></i>
         </div>
-        <div class="box box2">
+        <div class="numbers_box box2">
             <p>735</p>
         </div>
-        <div class="box box3">
+        <div class="numbers_box box3">
             <p>happy clients</p>
         </div>
     </div>
 </div>
 
-<!------------------------------------------------------------------------------------ END STATISTICS BLOCK ------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------ END NUMBERS BLOCK ------------------------------------------------------------------------------------>
 
 
 <!------------------------------------------------------------------------------------ START GALLERY BLOCK ------------------------------------------------------------------------------------>
